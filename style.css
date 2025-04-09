@@ -7,6 +7,9 @@ header{
     font-size: larger;
     display: flex;
 }
+body{
+    overflow-x: hidden;
+}
 
 .rasiPrints{
     background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1cggWLEbLCOJ0heK9ThWNACIQ_6Kb5jBug3CUN6j21sbzXi34);
@@ -172,4 +175,79 @@ img{
     padding: 60px;
     font-size: 200%;
     background-color: rgb(230, 226, 226);
+}
+.brands{
+    display: flex;
+    gap: 35%;
+}
+#brand{
+    height: 100px;
+    width: 100px;
+}
+.brandss{
+    display: flex;
+    gap: 8%; 
+    margin-top: 20px;
+}
+.showcasing h1{
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+.showcasing p{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+.showcases{
+    display: flex;
+    gap: 2%;
+}
+#shwcase{
+    width: 100%;
+    height: 100%;
+}
+.reachout h1 {
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+.reachout p{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+#map{
+    position: relative;
+    overflow: hidden;
+    height: 1000px;
+    width: 100%;
+}
+footer{
+   
+    background-color: rgb(6, 6, 36);
+    color: white;
+    /* padding-top: 50px; */
+    margin-top: 20%;
+    padding: 3% 4%;
+}
+.foot{
+    display: flex;
+    margin-left: 10%;
+    gap: 3%;
+}
+#copyright{
+    text-align: center;
+}
+.contact{
+    position: relative;
+overflow: visible;
+border: none;
+border-radius: 19px;
+background-color: white;
+margin-top: -40%;
+width: 20%;
+margin-left: 40px;
+padding: 20px;
+
 }
